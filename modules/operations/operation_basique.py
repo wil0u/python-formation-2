@@ -1,3 +1,4 @@
+
 def addition(valeur1, valeur2):
     resultat = valeur1 + valeur2
     return resultat
