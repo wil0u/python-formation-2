@@ -31,7 +31,7 @@ def main():
     print("la moyenne de votre variable uniforme :{}".format(tab.mean()))    
     print("Après Standardisation:")
     standardisation(tab)
-    print("la moyenne est elle bien nulle ?{}".format(round(tab.mean())))
+    print("la moyenne est elle bien nulle ? {}".format(round(tab.mean())))
 
 # La variable __name__ varie selon le module dans lequel on se trouve durant l'exécution du programme. 
 # si le pgm est appellé par import  alors elle ne vaut pas main et ainsi l'instruction suivante
