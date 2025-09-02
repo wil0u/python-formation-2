@@ -24,8 +24,6 @@
           source .venv/bin/activate
           pip install -r requirements.txt
         '';
-        # Open editors for the following files by default, if they exist:
-        default.openFiles = [ "main.ipynb" ];
       };
       # To run something each time the workspace is (re)started, use the `onStart` hook
     };
