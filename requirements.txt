@@ -1,5 +1,7 @@
 pandas
 plotly
 matplotlib
-sklearn
+scikit-learn
 nbformat
+pygwalker
+streamlit
