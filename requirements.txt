@@ -6,3 +6,4 @@ nbformat
 pygwalker
 streamlit
 seaborn
+statsmodels
