@@ -24,3 +24,4 @@ except Exception as e:  # attrape toutes les autres exceptions
     print("Autre exception:", type(e).__name__, e)
 finally:
     print("Ce bloque est tout le temps exécuté")
+ 

@@ -1,0 +1,3 @@
+# No external runtime dependencies required; setuptools and wheel needed for packaging
+setuptools>=65
+wheel>=0.41
