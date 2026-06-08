@@ -1,5 +1,5 @@
 # Nom du répertoire de l'environnement virtuel
-VENV := .venv
+VENV := ~/.venv
 
 .PHONY: venv install editable test build clean activate
 

@@ -12,6 +12,13 @@ authors = [
 dependencies = []
 
 [project.scripts]
+# Cette section permet de déclarer des "scripts" (commandes) en ligne de commande.
+# - La clé à gauche est le nom de la commande qui sera disponible dans le terminal
+#   après installation du package (ex : `operations-multiplier`).
+# - La valeur à droite a la forme "module_python:fonction"
+#   et indique quel point d'entrée Python appeler quand on lance la commande.
+# En général :
+#   ma-commande = "mon_package.mon_module:main"
 hello = "hello_parse.cli:main"
 
 [build-system]

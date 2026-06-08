@@ -35,9 +35,5 @@ operations-basiques/
 │  └─ operations_basiques/
 │     ├─ __init__.py
 │     ├─ operations.py
-│     └─ cli/
-│        ├─ __init__.py
-│        ├─ multiplier_cli.py
-│        └─ diviser_cli.py
 └─ tests/
    └─ test_operations.py
