@@ -1,0 +1,22 @@
+# Configuration de l'outil de build utilisé pour construire le package.
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+# Metadonnées principales du projet Python distribue.
+[project]
+name = "operations_basiques"
+version = "0.1.0"
+description = "Un petit package d'exemple avec des opérations mathématiques basiques."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = []
+
+# Indique a setuptools que le code source se trouve dans le dossier src/.
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+# Demande a setuptools de chercher automatiquement les packages dans src/.
+[tool.setuptools.packages.find]
+where = ["src"]

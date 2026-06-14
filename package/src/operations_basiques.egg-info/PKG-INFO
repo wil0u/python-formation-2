@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: operations_basiques
+Version: 0.1.0
+Summary: Un petit package d'exemple avec des operations mathematiques basiques.
+License-Expression: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# operations_basiques
+
+Petit package d'exemple avec deux fonctions :
+
+- `multiplier(a, b)`
+- `diviser(a, b)`
+
+Exemple :
+
+```python
+from operations_basiques.operations import multiplier
+
+print(multiplier(2, 3))
+```

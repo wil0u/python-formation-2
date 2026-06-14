@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/operations_basiques/__init__.py
+src/operations_basiques/operations.py
+src/operations_basiques.egg-info/PKG-INFO
+src/operations_basiques.egg-info/SOURCES.txt
+src/operations_basiques.egg-info/dependency_links.txt
+src/operations_basiques.egg-info/top_level.txt
